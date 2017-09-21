@@ -30,6 +30,11 @@ class EulerProblem69 {
             return gcd(n, m%n);
     }
 
+    /**
+     * Calculates Euler's totient function for n.
+     * @param n The value for which the function is being evaluated
+     * @return The number of numbers less than n relatively prime to n.
+     */
     private static int phi(int n) {
         int answer = 0;
         for (int i = 1; i < n; i++)
