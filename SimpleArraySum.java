@@ -26,6 +26,7 @@ public class SimpleArraySum {
 
     static int simpleArraySum(int n, int[] ar) {
         // Complete this function
+        return 0;
     }
 
 
