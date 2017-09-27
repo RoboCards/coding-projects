@@ -9,10 +9,19 @@
 
 class EulerProblem1 {
 
-    private static final int max = 23;
+    private static final int max = 1000;
 
     public static void main(String[] args) {
         // Code here
-        System.out.println("Hello world");
+        int answer = 0;
+        for (int i = 1; i < max; i++){
+            if (i%3 == 0 || i%5 == 0){
+                answer = answer + i;
+
+
+            }
+        }
+
+        System.out.println("The answer is " + answer);
     }
 }
